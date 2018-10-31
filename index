@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>楊育達</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+    <div id="header">
+    	<div class="container clearfix">
+           <div id="logo"><img src="jpg/c5hi.jpg" alt=""></div>
+               <div id="nav">
+               	<ul class="clearfix">
+               		<li><a href="#">home</a></li>
+               		<li></li>
+               		<li></li>
+               		<li></li>
+               	</ul> 
+               </div>
+    </div>
+</div>
+
+	<div class="content">
+		<div class="row clearfix">
+			<div class="col-6 category"><img src="jpg/yuta.jpg" alt="category"></div>
+				<div class="col-6 text">
+					<h3>個人資料</h3>
+					<p>前端工程師</p>
+					<a href="https://www.facebook.com/yin.hu.5">Facebook</a>
+					<p></p>
+
+				</div>
+			</div>
+	<div class="conteiner">
+		<div class="row clearfix">
+			<div class="col-6 annotation">
+				<h3 class="title">技能註解</h3>
+				<p>技能上HTML 和CSS 都有接觸，版面設計有基礎觀念，jQuery則是實作經驗不多，但也可以class串聯以及對點動畫顯示
+				，Git有使用知道大概操作方式，會使用RWD對應式網頁。</p>
+			</div>
+			<div class="col-6 skills">
+				<h3 class="title">MASSIVE SKILLS</h3>
+				<div class="progress-bar">
+					<div class="progress" style="width: 60%;">Html / Css </div>
+					<div class="pin">60%</div>
+			      </div>
+			      <div class="progress-bar">
+					<div class="progress" style="width: 50%;">jQuery</div>
+					<div class="pin">50%</div>
+				</div>
+				<div class="progress-bar">
+					<div class="progress" style="width: 60%;">Git</div>
+					<div class="pin">60%</div>
+				</div>
+				<div class="progress-bar">
+					<div class="progress" style="width: 60%;">GRAPHIC DESIGN</div>
+					<div class="pin">60%</div>
+		     </div>
+            </div>
+		</div>
+		<div class="works">
+          <h3 class="title">作品</h3>
+		    <a href="#">個人首頁</a></div>
+			<div class="meta">
+				<h3 class="title">經歷</h3>
+				<p>2016年畢業，在工作時想要讓自己年輕時學習不會被市場輕易取代的一技之長開始投入程式語言自學進修到現在。</p>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum rem, est commodi architecto facere doloremque cum accusamus hic velit veniam dolorem accusantium illum nisi? Ullam cupiditate iusto magni repudiandae quae eligendi laboriosam, eaque vero explicabo dolores, similique asperiores officia deserunt vitae consequuntur, accusantium id aut ducimus maiores quia expedita dolor!</p>	
+	</div>
+</body>
+</html>
