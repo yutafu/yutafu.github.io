@@ -36,7 +36,11 @@ img{
 .pin{
 	display: inline-block;
 }
-
+.col-4{
+	width: 33.33333%;
+	float: left;
+    padding: 0 30px;
+}
 .col-6{
 	width: 50%;
 }
