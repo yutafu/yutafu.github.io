@@ -78,7 +78,10 @@ img{
     float: left;
 }
 
-hr{    
+.text>.Introduction >hr{
+	width: 100%;
+}
+.col-4>hr{    
 	border-top: #979797 5px solid;
     width: 100px;
 }
@@ -112,8 +115,6 @@ hr{
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-
-
 @media (min-width:720px){
 
 	
