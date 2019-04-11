@@ -60,7 +60,7 @@ img{
 .pin{
 	display: inline-block;
 }
-.row{
+.row-skiu{
 	text-align: center;
 }
 .col-4{
@@ -69,6 +69,9 @@ img{
 .col-6{
 	width: 50%;
 	float: left;
+}
+.col-6-rig{
+	float: right;
 }
 .yuta>img{
 	width: 200px;
