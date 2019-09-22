@@ -21,6 +21,7 @@ img{
 .container{
 	max-width: 1000px;
 	margin: 0 auto;	
+	text-align: center;
 }
 .clearfix {
     content: "";
@@ -60,7 +61,8 @@ img{
 .pin{
 	display: inline-block;
 }
-.row-skiu{
+.row-nt{
+	margin: 0 auto;
 	text-align: center;
 }
 .col-4{
@@ -70,15 +72,12 @@ img{
 	width: 50%;
 	float: left;
 }
-.col-6-rig{
-	float: right;
-}
 .yuta>img{
 	width: 200px;
 	border-radius: 50%;
 }
 .col-4, .col-6{	
-    padding: 0;
+    padding: 0 10px;
     float: left;
 }
 
@@ -100,17 +99,10 @@ img{
 	float:left;
 }
 .works{
-	max-width: 200px;
+	
 }
 .thumbnail , .cover:hover { opacity:1}
 
-.thumbnail{
-	 position: relative;
-}
-.Memo>a>img{
-	width: 100%;
-	height: 210px;
-}
 .cover{
 	position: absolute;
     background: rgba(255, 255, 255, 0.9);
