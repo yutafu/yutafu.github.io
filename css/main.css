@@ -10,7 +10,9 @@ body{
 ul {
     margin: 0;
     padding-left: 0;
-    list-style-type: none;
+}
+li{
+	list-style-type: none;
 }
 img{
 	display: block;
@@ -19,7 +21,6 @@ img{
 	background-color: #ccc;
 }
 .container{
-	max-width: 1000px;
 	margin: 0 auto;	
 	text-align: center;
 }
