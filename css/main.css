@@ -24,6 +24,12 @@ img{
 	margin: 0 auto;	
 	text-align: center;
 }
+.conteiner>.row-nt hr{
+	margin: 0 auto;
+    border: none;
+    height: 2px;
+    background-color: #595959;
+}
 .clearfix {
     content: "";
     display: table;
