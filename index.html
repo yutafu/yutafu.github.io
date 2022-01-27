@@ -1,99 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>楊育達</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-	
-	<link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/fontello.css">
-	<link rel="stylesheet" href="css/main.css" />
-	
-</head>
-<body>
-    <div id="header">
-    	<div class="container clearfix">
-    			<div class="photo">
-    			<img src="jpg/yuta.jpg" width="450px" alt="photo">
-    		    </div>
-    		    <div class="Narrative">
-    		      <br>楊育達</br>
-				  <br>前端工程師</br>
-				  <br>編碼程式：Visual Studio Code</br>
-    			  <br>台南市，TW</br>
-    			    <div class="nav">
-               		<a href="#"><i class="icon-warehouse"></i></a>
-               		<a href="https://www.facebook.com/yin.hu.5"><i class="icon-facebook"></i></a>
-               		<a href="https://github.com/yutafu"><i class="icon-github-squared"></i></a> 
-                    </div>
-                       <div class="gmail">
-                       <a href="https://mail.google.com/mail/u/0/#inbox" style="color:#00C5FB;">sky83708@gmail.com</a>
-                       </div>
-    		    </div>
-    		</div>    
-        </div>   
- <!-- 資料 -->
-	<div class="container clearfix">
-	    	<div class="text Introduction">
-			<h1>經歷與證書</h1>
-			<hr />
-            <br>2016年於中華醫事科技大學運動休閒系畢業</br>
-			<h2>JavaScript學習證書</h2>
-			<img src="jpg/Graduation.jpg" width="500px" alt="Graduation" style="margin:auto" >
-			</div>	<!--經歷-->
-            <div class="row-nt clearfix">
-			<h1 class="title">skills</h1>
-			<hr />
-			  <div class="col-4">
-				<h3>HTML5/CSS</h3>
-				<hr />
-				<p>網頁切版以及對應瀏覽器相容性</p>
-				<p>RWD響應式網頁設計</p>
-				<p>Bootstrap前端網頁框架</p>
-				<p>AJAX</p>
-				<p>CSS3</p>
-			  </div>
-			  <div class="col-4">
-				<h3>JavaScript/jQuery</h3>
-				<hr />
-				<p>jQuery等class導向</p>
-				<p>網頁動態顯現以及表單製作</p>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Resume Page Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <style type="text/css">
+    body,td,th {
+    font-family: "微軟正黑體";
+}
+    </style>
+  </head>
+  <body bgcolor="#CCC">
+    <div class="container">
+      <hr>
+      <div class="row">
+        <div class="col-6">
+          <h1>Yang-Yuta</h1>
+        </div>
+        <div class="col-6">
+          <p class="text-right"><a href="">Download my Resume</a></p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-8 col-sm-12">
+          <div class="media"><img src="../yutafu/jpg/yuta.jpg" width="154" height="150" alt=""/>
+            <div class="media-body">
+              <h5 class="mt-0">楊育達</h5>
+              <h5 class="mt-0">朝著前端工程師邁進</h5>
+              <h5 class="mt-0">進修了不少課程，可能能力上尚有不足，但會盡力充實自己。<br>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="row justify-content-md-around m-1">
+            <address>
+            <strong>Yang-Yuta</strong><br>
+            編碼程式：Visual Studio Code、Adobe Dreamweaver<br>
+              <abbr title="Phone">手機號碼:</abbr> 0975286932<br>
+              <a  href="https://mail.google.com/mail/u/0/#inbox" style="color:#00C5FB;">sky83708@gmail.com</a>
+            </address>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <h2>Education</h2>
+          <hr>
+          <div class="row">
+            <div class="col-6">
+              <h4>中華醫事科技大學運動休閒系</h4>
+            </div>
+            <div class="col-6">
+              <h5 class="text-right"><span aria-hidden="true"></span>  2012-  2016</h5>
+            </div>
+          </div>
+          <h5><span class="badge badge-secondary">learning experience</span></h5>
+          <p>網頁基礎十五天<br>
+JavaScript 全攻略：克服 JS 的奇怪部分</p>
+          <p>Adobe Dreamweaver第二版設計</p>
+          <p>Photoshop裁剪使用</p>
+          <div class="row">
+            <div class="col-6">
+              <h4>Certificate</h4>
+            </div>
+            <div class="col-6">
+              <h5 class="text-right"><span aria-hidden="true"></span>  2021</h5>
+            </div>
+          </div>
+          <h5><span class="badge badge-secondary">Classroom Certificate</span></h5>
+          <p><img src="../yutafu/jpg/Graduation.jpg" width="700" height="524" alt=""/></p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h2>Skill Set</h2>
+          <hr>
+          <div class="progress mt-4">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 80%"> HTML</div>
+          </div>
+          <div class="progress mt-4">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 70%"> CSS</div>
+          </div>
+          <div class="progress mt-4">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 60%"> JAVASCRIPT</div>
+          </div>
+          <div class="progress mt-4">
+            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"> Dreamweaver</div>
+          </div>
+          <div class="progress mt-4">
+            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 35%"> Photoshop</div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <h2>Work Experience</h2>
+      <hr>
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <div class="row">
+            <div class="col-5">
+              <h4>泳池管理助手</h4>
+            </div>
+            <div class="col-6">
+              <h5 class="text-right"><span aria-hidden="true"></span>2017</h5>
+            </div>
+          </div>
+          <h5><span class="badge badge-secondary">Introduction</span></h5>
+          <p>管理泳池秩序，避免孩童做出奔跑或危險嬉戲遊玩，並在發生狀況第一時間進行危機管理救護。</p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="row">
+            <div class="col-5">
+              <h4>貨車助手</h4>
+            </div>
+            <div class="col-6">
+              <h5 class="text-right"><span aria-hidden="true"></span> 2017-2021</h5>
+            </div>
+          </div>
+          <h5><span class="badge badge-secondary">Introductionr</span></h5>
+          <p>水果運輸的搬運助手，依照工作量以及出貨運送到達市場卸貨。</p>
+        </div>
+      </div>
+      <hr>
+      <h2>Works</h2>
+      <hr>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-sm-4 col-12 p-0">
+		    <h3><a href="https://yutafu.github.io/?fbclid=IwAR2YszUkr_omSH3TnlPI4pViuAnAhwFScPgNA7ru2a1uZMnzrcpUQH2YTis">個人首頁</a></h3>
+			  <a href="https://yutafu.github.io/?fbclid=IwAR2YszUkr_omSH3TnlPI4pViuAnAhwFScPgNA7ru2a1uZMnzrcpUQH2YTis"><img src="../yutafu/jpg/chi.png" width="229" height="200" alt=""/></a></div>
+          <div class="col-sm-4 col-12 p-0">
+		    <h3><a href="https://yutafu.github.io/Memorandum/">程式備忘錄</a></h3>
+		    <a href="https://yutafu.github.io/Memorandum/"><img src="../yutafu/jpg/home.jpg" width="229" height="200" alt=""/></a></div>
+          <div class="col-sm-4 col-12 p-0">
+		    <h3><a href="https://yutafu.github.io/Blog4577/">練習Blog設計</a></h3>
+		    <a href="https://yutafu.github.io/Blog4577/"><img src="../yutafu/jpg/t42g.jpg" width="229" height="200" alt=""/></a></div>
+        </div>
+      </div>
+  </div>
+      <hr>
+      <h2>Contact</h2>
+      <hr>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8  col-12 jumbotron">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
               </div>
-              <div class="col-4">
-            	<h3>Tools / Development</h3>
-            	<hr />
-				<p>GitHub</p>
-				<p>Less轉換</p>
+              <div class="form-group">
+                <label for="email">E-Mail</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" aria-describedby="emailHelp">
+                <span id="emailHelp" class="form-text text-muted" style="display: none;">Please enter a valid e-mail address.</span>
               </div>
-		</div>
-		<!--技能-->
-		</div>
-
-		<div class="works clearfix">
-          <h1 class="title">作品處</h1>
-		  <hr />
-		  <div class="foter clearfix">
-			  <div class="row">
-            <div class="col-4"><a href="https://yutafu.github.io/?fbclid=IwAR2YszUkr_omSH3TnlPI4pViuAnAhwFScPgNA7ru2a1uZMnzrcpUQH2YTis">
-              <h3>個人首頁</h3>
-			<img src="jpg/c5hi.jpg" width="450" height="200" alt="">
-		</a></div>
-            
-            <div class="col-4"><a href="https://yutafu.github.io/Memorandum/">
-              <h3>程式備忘錄</h3>
-			<img src="jpg/home.jpg"  width="450" height="200"alt="">
-		 </a></div>
-
-		 <div class="col-4"><a href="https://yutafu.github.io/Blog4577/">
-			<h3>試做Blog設計</h3>
-		  <img src="jpg/t42g.jpg" width="450" height="200" alt="">
-	  </a></div>
-		</div>
-	</div>
-        
-	</div>		  
-        <!--作品-->
-</body>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea rows="10" cols="100" class="form-control" id="message" name="message" placeholder="Message" aria-describedby="messageHelp"></textarea>
+                <span id="messageHelp" class="form-text text-muted" style="display: none;">Please enter a message.</span>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <footer class="text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p>Copyright © MyWebsite. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
 </html>
