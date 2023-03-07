@@ -256,6 +256,10 @@ select {
   word-wrap: normal;
 }
 
+.skillu > i {
+  font-size: 33px;
+  float: left;
+}
 button,
 [type="button"],
 [type="reset"],

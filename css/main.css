@@ -54,6 +54,11 @@ img {
   display: table;
   color: #00C5FB;
 }
+.skillu > i {
+  font-size: 33px;
+  float: left;
+}
+
 .content {
   background-image: url("jpg/tablecloth.jpg");
   background-color: #ccc;
