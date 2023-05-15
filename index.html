@@ -8,7 +8,10 @@
     <!-- Bootstrap -->
     <link rel="icon" href="jpg/chi.ico" type="image/x-icon"/>
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!-- javascript -->
     <script src="https://kit.fontawesome.com/7b083de071.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style type="text/css">
     body,td,th {
     font-family: "微軟正黑體";
@@ -17,8 +20,24 @@
     background-color: #CCC;
 }
     </style>
+    <!-- text/css-->
   </head>
   <body>
+    <button type="button" id="BackTop" class="toTop-arrow"></button>
+<script>
+$(function(){
+	$('#BackTop').click(function(){ 
+		$('html,body').animate({scrollTop:0}, 333);
+	});
+	$(window).scroll(function() {
+		if ( $(this).scrollTop() > 300 ){
+			$('#BackTop').fadeIn(222);
+		} else {
+			$('#BackTop').stop().fadeOut(222);
+		}
+	}).scroll();
+});
+</script>
     <div class="container">
       <hr>
       <div class="row">
